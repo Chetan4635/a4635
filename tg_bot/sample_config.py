@@ -17,7 +17,7 @@ class Config(object):
     API_HASH="bbe93fd2299c195cc6935cabcc3c2a51"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://ixlgkmparpfvie:43b26eba5b3af2cb4b6782a07f6a9f75ac4a80893a7037fec5b0ff6e224b3163@ec2-54-225-182-108.compute-1.amazonaws.com:5432/d1rjq0oj8a8lnd'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://vdsaynqiezhwyj:eff819b09f18276d90ca6db3466780ea51d18c7d9eec604ea156bb73982e7a09@ec2-23-23-237-68.compute-1.amazonaws.com:5432/da6garv0hsdir9'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
